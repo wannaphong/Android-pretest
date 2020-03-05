@@ -13,8 +13,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         var flower:MutableList<Flower> = mutableListOf<Flower>()
-        flower.add(Flower("ดอกดาวเรือง",R.mipmap.ic_launcher))
-        flower.add(Flower("ดอกกล้วยไม้",R.mipmap.ic_launcher))
+        flower.add(Flower("ดอกดาวเรือง",R.drawable.f1))
+        flower.add(Flower("ดอกกล้วยไม้",R.drawable.f2))
 
         var listview:ListView = findViewById(R.id.itemlist)
 
